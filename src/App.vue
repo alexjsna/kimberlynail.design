@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/knd_logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="columns">
+    <div class="column is-half is-offset-one-quarter is-mobile">
+      <img style="width: 40vh;" alt="Vue logo" src="./assets/knd_logo.png">
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
